@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-flightaware",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "FlightAware MCP — wraps FlightAware AeroAPI v4 (aeroapi.flightaware.com)",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-d5c85cdc6c93ad49c2dd563efbf5813bb859bce751f5ab690915baa1e7e5c2f2",
+    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
   }
 }
